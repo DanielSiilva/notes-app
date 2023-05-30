@@ -15,7 +15,7 @@ export function App(){
     try {
       setNotes(response.data)
     } catch (error) {
-      return 
+      return error
     }
   }
 
