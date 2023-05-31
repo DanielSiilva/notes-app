@@ -1,11 +1,16 @@
+import { useState } from 'react';
 import {} from './styles'
 
 export function Search(){
-
+    const [searchText, setSearchText] = useState('');
 
     return(
-        <>
-            <h1>Search</h1>
-        </>
+        <div>
+            <input
+                placeholder='Pesquise por notas'
+                type='text'
+            />
+
+        </div>
     )
 }

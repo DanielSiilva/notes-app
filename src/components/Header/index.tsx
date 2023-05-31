@@ -1,11 +1,19 @@
 import {} from './styles'
 
+interface HeaderProps {
+
+}
+
 export function Header(){
 
 
     return(
-        <>
-            <h1>Header</h1>
-        </>
+        <div>
+            <h1>Notes</h1>
+
+            <button>
+                Toggle Mode
+            </button>
+        </div>
     )
 }

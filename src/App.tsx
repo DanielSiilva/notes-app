@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import { api } from './lib/api'
+import { Header } from './components/Header'
 
 interface NotesData {
   id: number,
@@ -28,6 +29,7 @@ export function App(){
 
   return (
     <div>
+      <Header />
       <h1> Notes App - Hello Word</h1>
     </div>
   )
